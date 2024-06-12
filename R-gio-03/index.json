@@ -1,0 +1,8 @@
+{
+    "Tvs":[
+        {"nom":"SAMSUNG QLED QE65Q8OAA","prix":"17999","taille":"65","image":"img1.jpg"},
+        {"nom":"TCL QLED 55C825","prix":"6100","taille":"42","image":"img2.jpg"},
+        {"nom":"SONY OLED XR-75X90Y","prix":"25000","taille":"52","image":"img3.jpg"},
+        {"nom":"LG OLED XR-77C1PVA","prix":"9000","taille":"65","image":"img4.jpg"}
+    ]
+}

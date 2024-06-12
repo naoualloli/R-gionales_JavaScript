@@ -1,0 +1,13 @@
+.selected-row {
+    background-color:green;
+}
+span{
+    display: block;
+    color: red;
+}
+.span-class{
+    display: none;
+}
+.error{
+    border: solid red;
+}

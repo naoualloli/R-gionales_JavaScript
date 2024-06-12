@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Commander Les TV's</h1>
+        <p></p>
+        <div class="mb-3">
+            <label>TV's</label>
+            <select name="tv" id="tv" class="form-select"></select>
+        </div>
+        <div class="mb-3">
+            <label>Qantite</label>
+            <input type="text" class="form-control" id="quantite">
+            <span class="span-class" id="span-id"></span>
+        </div>
+        <button class="btn btn-primary" id="ajouter">Ajouter au Panier</button>
+        <p></p>
+        <h1>Panier De Commande</h1>
+        <p></p>
+        <table id="table_commande" class="table table-bordered">
+            <tbody>
+                <th scope="col">Referance</th>
+                <th scope="col">Qantite</th>
+                <th scope="col">Image</th>
+                <th scope="col">Action</th>
+            </tbody>
+            <thead id="data">
+                
+            </thead>
+
+        </table>
+        <p></p>
+        <p></p>
+        <div class="mb-3" style="display: flex;justify-content: space-between;" >
+            <label>Total HT</label><input style="width: 50%;" type="text" class="form-control" id="ht"  >
+        </div>
+        <div class="mb-3" style="display: flex;justify-content: space-between;">
+            <label>Total TTC</label><input style="width: 50%;" type="text" class="form-control" id="ttc" >
+        </div>
+        <p></p>
+        <button class="btn btn-success" id="commander">Commander</button>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

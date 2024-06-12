@@ -1,0 +1,28 @@
+.selected-row {
+    background-color:green;
+}
+span{
+    display: block;
+    color: red;
+}
+.span-class1{
+    display: none;
+}
+.span-class2{
+    display: none;
+}
+.span-class3{
+    display: none;
+}
+.span-class4{
+    display: none;
+}
+.span-class5{
+    display: none;
+}
+.span-class6{
+    display: none;
+}
+.error{
+    border: solid red;
+}
